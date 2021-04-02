@@ -1,3 +1,4 @@
+// Time O(n) | O(n) space
 function find_averages_of_subarrays(K, arr) {
     const result = [];
     let windowSum = 0.0,

@@ -29,3 +29,5 @@ const non_repeat_substring = str => {
   console.log(`Length of the longest substring: ${non_repeat_substring('aabccbb')}`);
   console.log(`Length of the longest substring: ${non_repeat_substring('abbbb')}`);
   console.log(`Length of the longest substring: ${non_repeat_substring('abccde')}`);
+
+  // leetcode # 3. Longest Substring Without Repeating Characters 

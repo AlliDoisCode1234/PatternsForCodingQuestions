@@ -1,4 +1,8 @@
-function length_of_longest_substring(arr, k) {
+
+// O(N) time - where N is the count of numbers in the input array
+// O(1) space
+
+const length_of_longest_substring = function(arr, k) {
     let windowStart = 0,
       maxLength = 0,
       maxOnesCount = 0;

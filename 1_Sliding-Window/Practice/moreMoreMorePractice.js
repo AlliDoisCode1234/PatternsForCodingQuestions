@@ -1,3 +1,5 @@
+// O(n) time | O(1) space
+
 const smallest_subarray_with_given_sum = (s, arr) => {
     let windowSum = 0,
         minLength = Infinity,

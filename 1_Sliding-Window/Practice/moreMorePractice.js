@@ -1,3 +1,5 @@
+// O(N) time | O(1) space
+
 const max_sub_array_of_size_k = (k, arr) => {
     let maxSum = 0,
         windowSum = 0,

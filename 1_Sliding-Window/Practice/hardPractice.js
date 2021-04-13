@@ -1,3 +1,5 @@
+// O(N) time | O(1) space - where N is the number of letters in the input string.
+
 const length_of_longest_substring = (str, k) => {
     let windowStart = 0,
         maxLength = 0,

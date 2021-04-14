@@ -1,3 +1,5 @@
+// O(N + M) time | O(M) space - where N and M are the number of char in the input string and the pattern
+
 const find_substring = (str, pattern) => {
     let windowStart = 0,
         match = 0,

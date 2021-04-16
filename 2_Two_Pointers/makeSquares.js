@@ -1,3 +1,5 @@
+// O(N) time | O(N) space - where N is the number of elements in the array
+
 const make_squares = arr => {
     const n = arr.length,
           squares = Array(n).fill(0);

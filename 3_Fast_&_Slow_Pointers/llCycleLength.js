@@ -14,7 +14,7 @@ const find_cycle_length = head => {
     while (fast !== null && fast.next !== null) {
         fast = fast.next.next;
         slow = slow.next;
-        if (slow === fast) {
+        if (slow === fast) { // found the cycle
             return calculate_cycle_length(slow);
         }
     }

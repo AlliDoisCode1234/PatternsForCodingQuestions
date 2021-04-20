@@ -1,3 +1,4 @@
+
 class Interval {
     constructor(start, end) {
         this.start = start;
@@ -5,6 +6,9 @@ class Interval {
     }
 }
 
+
+
+// O(N * logN) time | O(N) space
 
 const merge = intervals => {
     if (intervals.length < 2) {

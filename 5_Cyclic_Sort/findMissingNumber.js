@@ -1,3 +1,5 @@
+// O(N) time | O(1) space
+
 const find_missing_number = nums => {
     let i = 0;
     const arrayLength = nums.length;

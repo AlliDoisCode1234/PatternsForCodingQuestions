@@ -14,6 +14,7 @@ class Node {
     }
 }
 
+// O(n) time | O(1) space
 
 const reverse = head => {
     let current = head,

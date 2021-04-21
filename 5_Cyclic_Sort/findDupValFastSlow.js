@@ -1,3 +1,5 @@
+// O(n) time | O(1) space
+
 const find_duplicate = arr => {
     let slow = arr[0],
         fast = arr[arr[0]];

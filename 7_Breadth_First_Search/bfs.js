@@ -17,7 +17,6 @@ function traverse(root) {
         return result;
     }
 
-
     const queue = new Deque();
 
     queue.push(root);

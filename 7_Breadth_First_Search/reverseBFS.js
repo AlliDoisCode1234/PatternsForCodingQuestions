@@ -9,7 +9,7 @@ class TreeNode {
     }
 }
 
-
+// O(n) time | O(n) space
 function traverse(root) {
     const result = new Deque();
     if (root === null) {

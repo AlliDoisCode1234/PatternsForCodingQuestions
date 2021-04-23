@@ -5,7 +5,7 @@ class MedianOfAStream {
         this.maxHeap = new Heap([], null, ((a, b) => a - b)); // containing first half of numbers
         this.minHeap = new Heap([], null, ((a, b) => b - a)); // containing second half of numbers
     }
-
+    // () time | 
     insert_num(num) {
         if (this.maxHeap.length === 0 || this.maxHeap.peek() >= num) {
             this.maxHeap.push(num)

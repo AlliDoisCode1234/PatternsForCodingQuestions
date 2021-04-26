@@ -1,3 +1,5 @@
+// O(logN) time  | O(1) space
+
 const binary_search = (arr, key) => {
     let start = 0,
         end = arr.length - 1,

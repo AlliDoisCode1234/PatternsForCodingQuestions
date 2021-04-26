@@ -1,3 +1,7 @@
+// searchPair O(N) time 
+// searchTriplets O(N^2) time
+// O(n) space
+
 const search_triplets = (arr) => {
     arr.sort((a, b) => a - b);
     const triplets = [];

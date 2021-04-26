@@ -1,3 +1,5 @@
+// O(N * 2^N) time | O(N * 2^N)
+
 const find_subsets = (nums) => {
     nums.sort((a, b) => a - b);
     const subsets = [];

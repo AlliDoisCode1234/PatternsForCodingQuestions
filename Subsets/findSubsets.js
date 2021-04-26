@@ -1,3 +1,5 @@
+// O(N * 2^N) time | O(N * 2^N) space
+
 const find_subsets = (nums) => {
     const subsets = [];
     // start by adding the empty subset

@@ -1,3 +1,5 @@
+// O(n) time | O(1) space - takes care of integer overflow issue
+
 function find_missing_number(arr) {
     const n = arr.length + 1;
     // x1 represents XOR of all values from 1 to n

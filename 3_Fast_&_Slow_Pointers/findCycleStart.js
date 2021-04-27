@@ -5,6 +5,8 @@ class Node {
     }
 }
 
+// O(n) time | O(1) space
+
 function find_cycle_start(head) {
     cycle_length = 0;
     // find the LinkedList cycle

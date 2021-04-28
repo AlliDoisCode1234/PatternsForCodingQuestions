@@ -20,6 +20,9 @@ class Point {
     }
 }
 
+
+// O(N * logK) time | O(K) space
+
 function find_closest_point(points, k) {
     const maxHeap = new Heap([], null, ((a, b) => a.compare(b)));
     // put first 'k' points in the max heap

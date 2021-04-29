@@ -1,5 +1,7 @@
 const Heap = require('./collections/heap'); //http://www.collectionsjs.com
 
+// O(N * logN) time | O(N) space
+//
 
 function minimum_cost_to_connect_ropes(ropesLengths) {
     // add al ropes to the minHeap

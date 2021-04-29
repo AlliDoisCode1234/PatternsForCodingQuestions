@@ -7,6 +7,7 @@ class ListNode {
     }
 }
 
+// O(N * logK) time | O(K) space
 function merge_lists(lists) {
     const minHeap = new Heap([], null, ((a, b) => b.value - a.value));
 

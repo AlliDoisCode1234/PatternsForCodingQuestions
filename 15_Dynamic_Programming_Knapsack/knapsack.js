@@ -1,3 +1,5 @@
+// O() time | O() space
+
 let solveKnapsack = function (profits, weights, capacity) {
     const n = profits.length;
     if (capacity <= 0 || n == 0 || weights.length !== n) return 0;

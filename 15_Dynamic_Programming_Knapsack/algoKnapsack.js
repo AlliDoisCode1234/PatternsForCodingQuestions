@@ -1,3 +1,5 @@
+// O(nc) time | O(nc) space
+
 function knapsackProblem(items, capacity) {
     const knapsackValues = [];
     for (let i = 0; i < items.length + 1; i++) {

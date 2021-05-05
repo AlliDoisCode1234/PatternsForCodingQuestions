@@ -1,5 +1,10 @@
 const Deque = require('./collections/deque'); //http://www.collectionsjs.com
 
+
+// O(V + E) time | O(V + E) space 
+// - where V is the total number of vertices and 
+//   E is the total number of edges in the graph
+
 function topological_sort(vertices, edges) {
     const sortedOrder = [];
     if (vertices <= 0) {

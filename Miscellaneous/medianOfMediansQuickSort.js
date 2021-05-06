@@ -1,3 +1,14 @@
+// O(N) time | O(N) space - which is the asymptotically optimal worst-case
+// complexity of any sorting/selection algorithm. 
+// In the context of Quicksort, given an O(N)O(N) selection algorithm using 
+// the Median of Medians, one can use it to find the ideal pivot (the median) 
+// at every step of quicksort and thus produce a sorting algorithm with 
+// O(NlogN)O(NlogN) running time in the worst-case. Though practical 
+// implementations of this variant are considerably slower on average, 
+// they are of theoretical interest because they show that an optimal selection 
+// algorithm can yield an optimal sorting algorithm.
+
+
 function find_Kth_smallest_number(nums, k) {
     return find_Kth_smallest_number_rec(nums, k, 0, nums.length - 1);
 }

@@ -1,3 +1,5 @@
+// O(N) time | O(N) space
+
 function find_Kth_smallest_number(nums, k) {
     return find_Kth_smallest_number_rec(nums, k, 0, nums.length - 1);
 }

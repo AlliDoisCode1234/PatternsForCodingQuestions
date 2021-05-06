@@ -1,5 +1,6 @@
 // O(N) time | O(N) space
 // Partition scheme of Quicksort
+// Worst case O(N^2)
 
 function find_Kth_smallest_number(nums, k) {
     return find_Kth_smallest_number_rec(nums, k, 0, nums.length - 1);
@@ -45,6 +46,7 @@ function partition(nums, low, high) {
 
 // O(N) time | O(N) space
 // Randomized Partition scheme of Quicksort
+// Worst case O(N^2)
 
 function find_Kth_smallest_number(nums, k) {
     return find_Kth_smallest_number_rec(nums, k, 0, nums.length - 1);

@@ -13,7 +13,7 @@ function topological_sort(vertices, edges) {
 
     // a. Initialize the graph
     const inDegree = Array(vertices).fill(0); // count of incoming edges
-    const graph = Array(vertices).fill(0).map(() => Array()); // adjaceny list graph
+    const graph = Array(vertices).fill(0).map(() => Array()); // adjacency list graph
 
     // b. Build the graph
     edges.forEach((edge) => {

@@ -1,3 +1,5 @@
+// O(N) time | O(1) space - where n is the number of elements in the given array
+
 function remove_duplicates(arr) {
     // index of the next non-duplicate element
     let nextNonDuplicate = 1;

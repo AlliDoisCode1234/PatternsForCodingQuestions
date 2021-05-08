@@ -1,3 +1,5 @@
+// O(N^2) time | O(N) space
+
 function triplet_sum_close_to_target(arr, targetSum) {
     arr.sort((a, b) => a - b);
     let smallest_difference = Infinity;

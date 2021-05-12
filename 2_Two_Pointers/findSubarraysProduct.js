@@ -1,6 +1,6 @@
 const Deque = require('./collections/deque'); //http://www.collectionsjs.com
 
-
+// O(N^3) time | O(N) space
 function find_subarrays(arr, target) {
     let result = [],
         product = 1,

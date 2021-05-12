@@ -1,3 +1,5 @@
+// O(N^3) time | O(N) space
+
 function triplet_with_smaller_sum(arr, target) {
     arr.sort((a, b) => a - b);
     const triplets = [];

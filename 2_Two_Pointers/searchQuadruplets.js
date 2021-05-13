@@ -1,3 +1,5 @@
+// O(N^3) time | O(N) space - sorting is required a O(N) space
+
 function search_quadruplets(arr, target) {
     arr.sort((a, b) => a - b)
     const quadruplets = [];

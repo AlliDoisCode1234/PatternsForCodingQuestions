@@ -1,3 +1,5 @@
+// O(M + N) time | O(1) space - where M and N are the lengths of the two input strings respectively
+
 function backspace_compare(str1, str2) {
     // use two pointer approach to compare the strings
     let index1 = str1.length - 1,

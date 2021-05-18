@@ -8,6 +8,7 @@ class TreeNode {
     }
 }
 
+// O(N) time | O(N) space
 function traverse(root) {
     let result = [];
     if (root === null) {

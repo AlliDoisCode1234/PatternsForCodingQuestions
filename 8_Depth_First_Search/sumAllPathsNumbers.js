@@ -1,3 +1,5 @@
+// O(N) time | O(N) space
+
 class TreeNode {
     constructor(val, left = null, right = null) {
         this.val = val;

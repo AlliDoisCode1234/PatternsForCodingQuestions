@@ -1,3 +1,5 @@
+// O(N) time | O(1) space
+
 function shortest_window_sort(arr) {
     let low = 0,
         high = arr.length - 1;

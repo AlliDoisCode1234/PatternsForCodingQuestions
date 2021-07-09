@@ -1,3 +1,5 @@
+// O(N) time | O(K) space
+
 function longest_substring_with_k_distinct(str, k) {
     let windowStart = 0,
         maxLength = 0,

@@ -1,3 +1,6 @@
+// O(logN) time | O(1) space
+//
+
 const search_next_letter = (letters, key) => {
     const n = letters.length;
 

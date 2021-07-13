@@ -1,3 +1,5 @@
+// O(logN) time | O(1) space
+
 const search_ceiling_of_a_number = (arr, key) => {
     const n = arr.length;
     if (key > arr[n - 1]) {

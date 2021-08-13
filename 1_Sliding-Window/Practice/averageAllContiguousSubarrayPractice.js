@@ -18,3 +18,9 @@ const averageSubarray = (arr, K) => {
 console.log(averageSubarray([1, 3, 2, 6, -1, 4, 1, 8, 2], 5), [2.2, 2.8, 2.4, 3.6, 2.8])
 
 // Array: [1, 3, 2, 6, -1, 4, 1, 8, 2], K=5
+
+
+const fizzz = n => {
+    for(let i = 1; i < n; i++)
+    (i % 3 === 0 ? 'Fizz' : '') + (i % 5 === 0)
+}

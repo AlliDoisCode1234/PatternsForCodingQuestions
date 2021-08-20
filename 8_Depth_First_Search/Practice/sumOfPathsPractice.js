@@ -6,6 +6,7 @@ class TreeNode {
     }
 }
 
+// O(n) time | O(n) space
 
 function find_sum_of_path_numbers(root) {
     return find_root_to_leaf_path_numbers(root, 0);

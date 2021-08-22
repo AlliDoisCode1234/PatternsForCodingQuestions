@@ -6,7 +6,12 @@ class TreeNode {
     }
 }
 
+// O(n) time | O(n) space where n is the total number of nodes in the tree.
+// This is due to the fact that we traverse each node once.
 
+// The space due to the space used to store the recursion stack. 
+// The worst case will happen when the given tree is a linked list 
+// (i.e., every node has only one child)
 function find_path(root, sequence) {
     if (root === null) {
         return sequence.length === 0;

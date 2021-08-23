@@ -60,3 +60,8 @@ function reverse(head) {
     }
     return prev;
 }
+
+
+// 1. We can use the Fast & Slow pointers method to find the middle node of the localStorage
+// 2. Once we have the middle of the localStorage, we will reverse the second half of the LL 
+// 3. Finally, we iterate through the first half and the reversed second half to produce a LL in required order

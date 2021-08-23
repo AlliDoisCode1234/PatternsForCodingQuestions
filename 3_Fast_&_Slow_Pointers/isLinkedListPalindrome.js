@@ -67,6 +67,6 @@ console.log(`Is palindrome: ${is_palindromic_linked_list(head)}`);
 
 
 // 1. Use Fast & Slow pointers method to find the middle node of the linked list 
-// 2. Once we have th emiddle of the LinkedList, we will reverse the second half 
+// 2. Once we have the middle of the LinkedList, we will reverse the second half 
 // 3. Then, we will compare the first half with the reversed second half to see if the LL is a palindrome 
 // 4. Finally, we will reverse the second half of the LL again to revert and bring the LL back to its original form 

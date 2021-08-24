@@ -4,6 +4,8 @@
 
 // We can improve the time complexity with memoization but that would change the space from constant to linear
 
+
+
 function circular_array_loop_exists(arr) {
     for (let i = 0; i < arr.length; i++) {
         let isForward = arr[i] >= 0; // if we are moving forward or not
@@ -64,7 +66,7 @@ console.log(circular_array_loop_exists([2, 1, -1, -2]));
 // Start from each index of the array to find the circular_array_loop_exists.
 // If a number does not have a cycle we will move forward to the next element. 
 // The cycle should have more than one element.
-// This means that when we move a pointer forward, it the pointer points to the same
+// This means that when we move a pointer forward, if the pointer points to the same
 // element after the move, we have a one-element cycle. Therefore, we can finish
 // our cycle search for the current element.
 // We handle the cycle not containing both forward and backward movements by remembering
@@ -72,3 +74,4 @@ console.log(circular_array_loop_exists([2, 1, -1, -2]));
 // the direction will be forward and if the number is negative, the direction will be backward.
 // So whenever we move a pointer forward, if there is a change in the direction, we will finish 
 // our cycle search there there for the current element.
+
